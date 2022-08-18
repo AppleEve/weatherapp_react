@@ -18,6 +18,16 @@ export default function App() {
       </div>
       <CurrentWeather />
       <hr />
+      <span className="link">
+        <a
+          href="https://github.com/AppleEve/weatherapp_react"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Open source code
+        </a>
+        {" by Apple Eve"}
+      </span>
     </div>
   );
 }

@@ -21,3 +21,9 @@ h1 {
 hr {
   color: rgb(168, 218, 220);
 }
+
+.link,
+.link a {
+  color: rgb(168, 218, 220);
+  font-size: 12px;
+}
