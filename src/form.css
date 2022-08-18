@@ -1,0 +1,47 @@
+#location-button,
+.button {
+  background-color: rgba(56, 92, 142);
+  border: thin white;
+  border-radius: 50%;
+  font-size: 22px;
+  max-width: 50px;
+  padding: 5px 7px;
+}
+
+#location-button:hover,
+.button:hover {
+  color: rgba(56, 92, 142);
+  background-color: rgb(130, 153, 185);
+}
+#location-button {
+  padding: 5px 9px;
+  color: rgb(171, 214, 232);
+  font-size: 22px;
+}
+
+.submit {
+  width: 70%;
+}
+.text {
+  padding: 8px 20px;
+  display: block;
+  border-radius: 5px;
+  font-size: 13px;
+  width: 100%;
+  background-color: white;
+  border-color: rgba(56, 92, 142);
+  box-shadow: 5px 10px 20px rgb(46, 67, 97, 0.4);
+}
+
+.selectionArea {
+  text-align: center;
+}
+
+#label {
+  color: rgb(171, 214, 232);
+  font-size: 11px;
+  margin-top: 10px;
+  text-align: left;
+  position: relative;
+  left: 14px;
+}

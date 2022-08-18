@@ -1,0 +1,44 @@
+h2 {
+  color: rgb(171, 214, 232);
+}
+.active-scale {
+  color: rgb(171, 214, 232);
+  text-decoration: none;
+  cursor: default;
+}
+.main-image {
+  font-size: 80px;
+  color: rgb(240, 215, 140);
+}
+.parameter {
+  font-weight: 600;
+  color: white;
+}
+
+.weather-properties {
+  position: relative;
+  top: 15px;
+  left: 80px;
+  font-size: 16px;
+}
+.value {
+  color: rgb(171, 214, 232);
+}
+#big-nbr {
+  font-size: 80px;
+}
+
+#celsius-scale,
+#main-dash {
+  position: relative;
+  top: -40px;
+  font-size: 20px;
+}
+
+#weather-description {
+  text-transform: capitalize;
+}
+
+.row {
+  margin: 0px;
+}

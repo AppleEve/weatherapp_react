@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import "./styles.css";
+import Form from "./form";
+import CurrentWeather from "./current-weather";
+import "./App.css";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App container">
+      <Form />
+      <hr />
+      <h1>Nicosia, CY</h1>
+      <div className="current-date">
+        <span className="parameter">Weather for:</span>
+        <span className="value" id="current-date-time">
+          {" "}
+          10/08/2022 15:21
+        </span>
+      </div>
+      <CurrentWeather />
+      <hr />
     </div>
   );
 }
-
-export default App;

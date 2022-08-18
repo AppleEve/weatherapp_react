@@ -1,0 +1,14 @@
+.App {
+  font-family: sans-serif;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-image: url("./img/background-img.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
